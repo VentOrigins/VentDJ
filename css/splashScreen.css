@@ -4,31 +4,17 @@
     By Adrian Mandee and Randy Truong
     ========================================================================== */
 
-h1 {
-
+#splash-screen {
+  height: 100vh;
 }
 
-h2 {
-
+#splash-screen-title {
+  padding-top: 15vh;
+  text-align: center;
 }
 
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-
-}
-
-h6 {
-
-}
-
-/*Default entire body is black*/
-body {
-  background-color: black;
+#splash-screen-title h1 {
+  color: white;
+  font-size: 10vmin;
+  opacity: 0.5;
 }
