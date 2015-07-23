@@ -3,3 +3,19 @@
     Copyright © Vent Origins 
     By Adrian Mandee and Randy Truong
     ========================================================================== */
+
+/*nav {
+  position: fixed;
+  z-index: 1002;
+}
+
+nav.nav-wrapper {
+  margin: 0px;
+  padding: 0px;
+}*/
+
+#nav-bar {
+  height: 100px;
+  margin-top: 0px;
+  position: relative;
+}

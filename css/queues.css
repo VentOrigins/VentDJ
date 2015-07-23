@@ -4,11 +4,17 @@
     By Adrian Mandee and Randy Truong
     ========================================================================== */
 
-function search() {
-	event.preventDefault();
-	console.log("Hello");
-	console.log($("#query-input").val());
+/*The queue bar*/
+#queue-bar {
+  /*Size*/
+  width: 400px;
+  height: 100vh;
+  
+  /*background*/
+  /*background-color: white;*/
 
-  // Displays tracks
-  overlayTracks("#splash-screen");
+  /*border: 1px solid black;*/
+
+  /*Have it over everything*/
+  z-index: 1001;
 }

@@ -6,7 +6,9 @@
 
 /*Removes the margin between footer and splash screen*/
 footer.page-footer {
+  position: relative;
   margin-top: 0px;
+  margin-right: 0px;
 }
 
 /*Handles the icons in the footers*/
